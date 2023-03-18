@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/Android/data/io.spck/files/Ghostweb/app/src/main/res/drawable/backRudios.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": -1,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "index": -1,
+          "line": 12
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/Android/data/io.spck/files/Ghostweb/app/src/main/res/font/GhostFont.ttf",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": -1,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": -1,
+          "line": 0
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/Android/data/io.spck/files/Ghostweb/app/src/main/res/drawable/backRudios.xml"
+}

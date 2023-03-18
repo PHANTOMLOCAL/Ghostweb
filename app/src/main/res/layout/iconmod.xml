@@ -1,0 +1,76 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#2B2122"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/textinputlayout1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:orientation="vertical"
+					app:shapeAppearance="@style/Cut"
+					>
+					<EditText
+						android:id="@+id/edittext1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:gravity="center_vertical"
+						android:textSize="14sp"
+						android:textColor="#EEEEEE"
+						android:hint="Search Icon "
+						android:textColorHint="#EEEEEE" />
+				</com.google.android.material.textfield.TextInputLayout>
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+				<ProgressBar
+					android:id="@+id/progressbar1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:indeterminate="true"
+					style="?android:progressBarStyleHorizontal" />
+				<androidx.recyclerview.widget.RecyclerView
+					android:id="@+id/recyclerview1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<androidx.recyclerview.widget.RecyclerView
+					android:id="@+id/recyclerview2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/_fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="16dp"
+		android:layout_gravity="right|bottom"
+		app:srcCompat="@drawable/arrowr"
+		android:rotation="90" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

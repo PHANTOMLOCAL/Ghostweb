@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="sting">تنظیمات</string>
+    <string name="java">کد های جاوا</string>
+    <string name="googleplay">ثبت نظر در مایکت</string>
+    <string name="ter">ترمینال</string>
+    <string name="sdcard1">حافظه خارجی</string>
+    <string name="sdcard2">حافظه داخلی</string>
+    <string name="about">درباره برنامه</string>
+    <string name="htmlle">آموزش کده</string>
+    <string name="keyboard">کیبورد برنامه</string>
+    <string name="up">برسی اپدیت برنامه</string>
+    <string name="themebackoup">پشتیبان گیری از تم</string>
+    <string name="logcater">ظبط کننده خطا</string>
+    <string name="exitapp">خروج از برنامه</string>
+    <string name="geticonmod"> ایکون پک</string>
+    <string name="exitappmsg">آیا میخواهید از برنامه خارج شوید؟ </string>
+    <string name="no">خیر</string>
+    <string name="yes">بله</string>
+</resources>

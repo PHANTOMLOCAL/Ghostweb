@@ -1,0 +1,387 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<androidx.core.widget.NestedScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#2B2121">
+			<Ninja.coder.Ghostemane.code.PraramnetLayoutNinja
+				android:id="@+id/linear1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="right"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="تنظیمات"
+							android:textSize="25sp"
+							android:textStyle="bold"
+							android:textColor="#EEEEEE"
+							android:layout_weight="1" />
+						<ImageView
+							android:id="@+id/imageview1"
+							android:layout_width="40dp"
+							android:layout_height="40dp"
+							android:padding="3dp"
+							android:src="@drawable/arrowr"
+							android:scaleType="centerInside" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/arrow05"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/arrow_down"
+							android:scaleType="centerInside"
+							android:rotation="180" />
+						<TextView
+							android:id="@+id/textview10"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="تم"
+							android:textSize="18sp"
+							android:textColor="#F5F5F5"
+							android:layout_weight="1" />
+						<ImageView
+							android:id="@+id/imageview7"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/color"
+							android:scaleType="centerInside" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/themes"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/tvtheme"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:gravity="right"
+							android:text="مدیرت تم ها"
+							android:textSize="16sp"
+							android:textColor="#E0E0E0"
+							android:translationX="-15.0dp"
+							android:layout_weight="1" />
+						<ImageView
+							android:id="@+id/imgtheme"
+							android:layout_width="25dp"
+							android:layout_height="25dp"
+							android:src="@drawable/color"
+							android:scaleType="centerInside"
+							android:translationX="-15.0dp" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/stingkeyboard"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/arrow04"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/arrow_down"
+							android:scaleType="centerInside"
+							android:rotation="180" />
+						<TextView
+							android:id="@+id/textview13"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="تنظیمات کیبورد"
+							android:textSize="16sp"
+							android:textColor="#F5F5F5"
+							android:layout_weight="1" />
+						<ImageView
+							android:id="@+id/imageview8"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/keyboard"
+							android:scaleType="centerInside" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/keyboard"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="مدیرت کیبورد"
+							android:textSize="16sp"
+							android:textColor="#E0E0E0"
+							android:translationX="-15.0dp" />
+						<ImageView
+							android:id="@+id/imageview3"
+							android:layout_width="25dp"
+							android:layout_height="25dp"
+							android:src="@drawable/keyboard"
+							android:scaleType="centerInside"
+							android:translationX="-15.0dp" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear21"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right|center_vertical"
+						android:orientation="horizontal">
+						<ImageView
+							android:id="@+id/arrow03"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/arrow_down"
+							android:scaleType="centerInside"
+							android:rotation="180" />
+						<TextView
+							android:id="@+id/textview1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="عمومی"
+							android:textSize="20sp"
+							android:textColor="#F5F5F5"
+							android:layout_weight="1" />
+						<ImageView
+							android:id="@+id/imageview9"
+							android:layout_width="30dp"
+							android:layout_height="30dp"
+							android:src="@drawable/okeye"
+							android:scaleType="centerInside" />
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear3"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:padding="8dp"
+					android:gravity="right|center_vertical"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/tvword"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:text="ثابت کردن متن "
+						android:textSize="16sp"
+						android:textColor="#E0E0E0" />
+					<com.google.android.material.checkbox.MaterialCheckBox
+						android:id="@+id/checkbox1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:textColor="#000000"
+						android:button="@drawable/geticon" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/pubilc"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:orientation="vertical">
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/recyclerview1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="8dp" />
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear22"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="right|center_vertical"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/add"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear25"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:gravity="right|center_vertical"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/arrow02"
+								android:layout_width="30dp"
+								android:layout_height="30dp"
+								android:src="@drawable/arrow_down"
+								android:scaleType="centerInside"
+								android:rotation="180" />
+							<TextView
+								android:id="@+id/textview20"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="مدیرت فایل"
+								android:textSize="20sp"
+								android:textColor="#F5F5F5"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview11"
+								android:layout_width="30dp"
+								android:layout_height="30dp"
+								android:src="@drawable/folder3"
+								android:scaleType="centerInside" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/size"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:orientation="horizontal">
+							<TextView
+								android:id="@+id/textview21"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="سایز های عکس و ویدیو را خاموش کنید"
+								android:textSize="14sp"
+								android:textColor="#EEEEEE"
+								android:layout_weight="1" />
+							<com.google.android.material.checkbox.MaterialCheckBox
+								android:id="@+id/checkbox11"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:textSize="12sp"
+								android:textColor="#000000"
+								android:button="@drawable/geticon" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/reminderadditem"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear27"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:gravity="right|center_vertical"
+							android:orientation="horizontal">
+							<ImageView
+								android:id="@+id/arrow01"
+								android:layout_width="30dp"
+								android:layout_height="30dp"
+								android:src="@drawable/arrow_down"
+								android:scaleType="centerInside"
+								android:rotation="180" />
+							<TextView
+								android:id="@+id/textview6"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="ویرایشگر"
+								android:textSize="20sp"
+								android:textColor="#F5F5F5"
+								android:layout_weight="1" />
+							<ImageView
+								android:id="@+id/imageview10"
+								android:layout_width="30dp"
+								android:layout_height="30dp"
+								android:src="@drawable/codeformat"
+								android:scaleType="centerInside" />
+						</LinearLayout>
+						<LinearLayout
+							android:id="@+id/autotext"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="right"
+							android:orientation="vertical">
+							<androidx.recyclerview.widget.RecyclerView
+								android:id="@+id/recyclerview2"
+								android:layout_width="match_parent"
+								android:layout_height="match_parent"
+								android:padding="8dp" />
+						</LinearLayout>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout
+					android:id="@+id/linear14"
+					android:layout_width="0dp"
+					android:layout_height="0dp"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<TextView
+						android:id="@+id/textview15"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="right"
+						android:text="دیالوگ یا باتوم شیت جستجو گر متن"
+						android:textSize="14sp"
+						android:textColor="#E0E0E0"
+						android:layout_weight="1" />
+					<com.google.android.material.checkbox.MaterialCheckBox
+						android:id="@+id/checkbox9"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:textSize="12sp"
+						android:textColor="#000000"
+						android:button="@drawable/geticon" />
+				</LinearLayout>
+			</Ninja.coder.Ghostemane.code.PraramnetLayoutNinja>
+		</androidx.core.widget.NestedScrollView>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

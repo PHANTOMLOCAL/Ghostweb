@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#FF2C2C2C</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#00000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="fab_square" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+    <style name="Cut" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="Ghostwebfabstyle" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="AppTheme.Theme.Transparent" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#00000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+        <item name="android:windowBackground">#FF2B2122</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+    </style>
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar"/>
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="bottomSheetStyle">@style/ModalBottomSheetDialog</item>
+    </style>
+    <style name="PickerEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Apple">
+        <item name="android:windowBackground">#FF2B2122</item>
+        <item name="android:textColor">#FFFFB49D</item>
+        <item name="android:textColorSecondary">#FFFF8A65</item>
+    </style>
+    <style name="DropDown">
+        <item name="android:paddingLeft">6dip</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="hso">
+        <item name="android:windowEnterAnimation">@anim/anim_text_action_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_text_action_popup_exit</item>
+    </style>
+    <style name="diagnostic_popup_animation">
+        <item name="android:windowEnterAnimation">@anim/anim_diagnostic_tooltip_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_diagnostic_tooltip_window_exit</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Dark"/>
+    <style name="ModalBottomSheetDialog" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/post100</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowEnterAnimation">@anim/anim_text_action_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/anim_text_action_popup_exit</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+    </style>
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.Material3">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">14dp</item>
+    </style>
+</resources>
